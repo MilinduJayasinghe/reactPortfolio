@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.logo {
+  width: 2rem;
+}
+
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+}
+
+.navbar {
+  font-weight: 500;
+  z-index: 2;
+}
+
+.navbar li {
+  font-weight: 900;
+}
+
+/* header */
+
+.header-wrapper {
+  position: relative;
+  background: url(lg1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.offer {
+  border: 1px solid rgb(80, 80, 80);
+  text-transform: uppercase;
+  border-radius: 1rem;
+  padding: 0.625rem 0.75rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+.offer:hover {
+  border: 2px solid rgb(255, 255, 255);
+  color: black;
+}
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
